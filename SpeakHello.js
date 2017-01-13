@@ -8,7 +8,7 @@
 (function (window) {
 	var helloSpeaker = {};
 	helloSpeaker.speak = "names"
-	
+	var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 	
 
 // DO NOT attach the speakWord variable to the 'helloSpeaker' object.
