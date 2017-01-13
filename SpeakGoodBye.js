@@ -12,7 +12,7 @@
 
  var byeSpeaker = {};
  byeSpeaker.speak = "names"
- var names[i] = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
 // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
 var speakWord = "Good Bye";
