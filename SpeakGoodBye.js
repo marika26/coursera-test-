@@ -11,8 +11,8 @@
 (function (window) {
 
  var byeSpeaker = {};
- byeSpeaker.speak = "names"
- byeSpeaker.names = [ "John", "Jen", "Jason", "Jim" ]
+ byeSpeaker.speak = "names(i)"
+ 
 
 // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
 var speakWord = "Good Bye";
@@ -21,7 +21,7 @@ var speakWord = "Good Bye";
 // byeSpeaker object instead of being a standalone function.
 // See Lecture 52, part 2
 byeSpeaker.speak = function (names) {
-  console.log(speakWord + " " + byeSpeaker.names);
+  console.log(speakWord + " " + byeSpeaker.names(i));
 }
 
 window.byeSpeaker = byeSpeaker;
