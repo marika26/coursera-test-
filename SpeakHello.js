@@ -7,8 +7,7 @@
 // See Lecture 52, part 1
 (function (window) {
 	var helloSpeaker = {};
-	helloSpeaker.speak = "names"
-	var names = ("Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim");
+	
 	
 
 // DO NOT attach the speakWord variable to the 'helloSpeaker' object.
@@ -18,7 +17,7 @@
 // helloSpeaker object instead of being a standalone function.
 // See Lecture 52, part 2
 	helloSpeaker.speak= function (names) {
-  	console.log(speakWord + " " + helloSpeaker.names);
+  	console.log(speakWord + " " + names);
   }
 
 // STEP 5: Expose the 'helloSpeaker' object to the global scope. Name it
